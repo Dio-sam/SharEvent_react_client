@@ -1,0 +1,291 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #DCD9D4; 
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    background-attachment: fixed;
+}
+
+.btnBack {
+    text-align: right;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+.spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 50%;
+    right: 50%;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+/**************** BUTTON TAB *********************/
+
+.btnTab {
+    color: #4C4B63;
+    border-left: 3px solid #333 !important;
+    border-right: 3px solid #333 !important;
+    margin-right: 5px;
+}
+
+.btnTab:hover {
+    text-decoration: none;
+    color: #000000 !important;
+    border: 2px solid #17A2B8;
+}
+
+/**************** EVENT TAB #HOME *********************/
+
+.imageBlock {
+    padding:0px;
+    margin:0px;
+}
+
+.imageBlock img {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.titleStyle {
+    color: #4C4B63;
+}
+
+.titleEvents {
+    font-size: 17px; 
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.listStyle i {
+    margin-right: 2px; 
+    color:#17A2B8;
+}
+
+.borderStyle {
+    margin: 20px;
+}
+
+.borderStyle:hover {
+    border: 1px outset;
+    box-shadow:5px 5px 0 rgba(0,0,0,0.2);
+    border-bottom-right-radius: 20px;
+}
+
+/* .scrollEvent {
+    overflow-y: scroll;
+} */
+
+.Cal__Container__root {
+    z-index: inherit;
+    width: 100% !important;
+}
+
+.Cal__Header__root {
+    background-color: #17A2B8 !important;
+}
+
+.Cal__Weekdays__root {
+    background-color: #17A2B8 !important;
+    z-index: inherit;
+}
+
+.Cal__Day__selection {
+    background-color: #17A2B8 !important;
+}
+
+/**************** EVENT ID *********************/
+
+.title {
+    font-size: 25px;
+}
+
+.event-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.event-list img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    margin-left: 20px !important;
+}
+
+.event-list > li {
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 5px rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+
+.event-list > li > p {
+    width: 100%;
+    color: #FFF;
+    background-color: #17A2B8;
+    padding: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.event-list .info i {
+    color: #2ec4b6;
+}
+
+.event-list .info p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.card-footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: #17A2B8 !important;
+}
+
+.card-footer a{
+    color: #FFF;
+    
+}
+
+/**************** LOGIN & SIGNUP PAGE *********************/
+
+.login-form {
+    padding: 3%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 8%;
+}
+
+.login-form img {
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 35%;
+    margin-left: 33%;
+}
+
+.login-form .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #17A2B8;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 1rem;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form .btnSubmit:hover {
+    font-weight: 600;
+    color: #fff;
+    background-color: #333;
+}
+
+.login-form .ForgetPwd {
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-form .ForgetPwd:hover {
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.signup-form {
+    padding: 3%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 8%;
+}
+
+.signup-form .form-group {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.signup-form img {
+    margin-left: 45% !important;
+    margin-bottom: 15px;
+}
+
+.signup-form .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #17A2B8;
+    width: 30%;
+    margin-left: 30%;
+    border-radius: 1rem;
+    padding: 2%;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-form .btnSubmit:hover {
+    font-weight: 600;
+    color: #fff;
+    background-color: #333;
+}
+
+
+
+/**************** NAVBAR *********************/ 
+.nav-link { 
+    color: #4C4B63;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.navbar-toggler {
+    border: 1px solid #333;
+}
+
+
+/**************** PROFILE PAGE ***************/
+
+.imgProfile {
+    text-align: center;
+    width: 40%;
+    border-radius: 20%;
+    align-self: center;
+}
+
+.details {
+    border-left: 3px solid #ded4da;
+}
+
+.details h5 {
+    margin-left: 15px;
+}
+
+.details cite {
+    margin-left: 15px;
+}
+
+.details p {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+/**************** SHARED TAB ***************/
+.accordion__button {
+    background-color: transparent;
+}
+.accordion__button:hover {
+    background-color: #17A2B8;
+    color: #fff;
+}

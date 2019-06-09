@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "firstName": "Salim",
+        "lastName": "OKAR",
+        "city": "Paris, France",
+        "email": "salim.okar@live.fr",
+        "phoneNumber": "0606060606",
+        "picture": "https://cdn.pixabay.com/photo/2017/02/23/13/05/profile-2092113_960_720.png",
+        "eventsvisited": [
+            {
+                "id": 1,
+                "name": "Salon de l'automobile",
+                "logo": "https://www.largus.fr/images/images/dcwiv-rxuaajsc4-resultat.jpg?width=612&quality=80",
+                "date": "28/10/2017",
+                "address": "Parc des expositions, 1 place de la Porte de Versailles, 75015 Paris"
+            },
+            {
+                "id": 2,
+                "name": "Salon des entrepreneurs",
+                "logo": "https://widoobizweb.s3.amazonaws.com/wp-content/uploads/2018/01/sans-titre-1-1.png",
+                "date": "07/02/2017",
+                "address": "Palais des congrès, 2 place de la Porte Maillot, 75017 Paris"
+            }
+        ],
+        "futurevents": [
+            {
+                "id": 1,
+                "name": "Salesforce World Tour",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png",
+                "date": "27/06/2019",
+                "address": "Parc des expositions, 1 place de la Porte de Versailles, 75015 Paris"
+            },
+            {
+                "id": 2,
+                "name": "BpiFrance",
+                "logo": "https://www.banquedesterritoires.fr/sites/default/files/styles/landscape/public/2018-11/BPI.png?itok=9-WM0ERj",
+                "date": "10/10/2019",
+                "address": "AccorHotels Arena, 8 Boulevard de Bercy, 75012 Paris"
+            }
+        ]
+    }
+]
